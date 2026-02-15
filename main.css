@@ -1,0 +1,33 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #140202;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1.25rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #fff;
+    background: #2563eb;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
